@@ -28,6 +28,8 @@ class ChooseCategoryViewController: UIViewController {
     }
   }
   
+  // MARK: - ViewController Lifecycle Methods
+  
   override func viewWillAppear(_ animated: Bool) {
     buttonIsEnabled(isEnabled: true)
   }
