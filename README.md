@@ -1,1 +1,3 @@
 # NYT-Articles
+Application working with NYT's API. There are 3 categories by which you can search for articles.
+First, was created UI for the first ViewController, then was created a data model for parsing json and using the Codable protocol. The request was made via URLSession, the activityIndicator and AlertController were added to indicate that data is being loaded or a message that an error was received. Then was created TableView to display articles in a tabular form, and the delegate method was used in order to switch to another ViewController when clicking on a cell - in which the entire article is displayed.
